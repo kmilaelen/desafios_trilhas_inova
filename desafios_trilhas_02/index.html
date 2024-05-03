@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tela de Cadastro</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Josefin+Sans:ital,wght@1,200&family=Mulish:ital,wght@0,600;1,900&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	<div class="content-container">
+<div class="form-container">
+    <form method="POST" action="/dadosusuario.php">
+		<div class="dados-usuario">
+			<h1>Inscreva-se</h1>
+        </div>	
+        <div class="dados-usuario">
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="nascimento" id="nascimento" placeholder="Data de Nascimento" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="cpf" id="cpf" placeholder="CPF" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="escolaridade" id="escolaridade" placeholder="Escolaridade" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="email" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+        </div>
+        <div class="dados-usuario">
+            <input type="text" name="cep" id="cep" placeholder="CEP" required>
+        </div>
+        <br>
+		<div class="button-container">
+			<button class="cancel-button" onclick="imprimir()">Cancelar</button>
+			<button class="finish-button" onclick="imprimir()">Finalizar</button>
+        </div>
+    </form>
+	<img src="img/inova.png" alt="">
+</div>
+</div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
