@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(121, 210, 246);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: left;
+    font-family: 'Chiller', sans-serif;
+    font-size: 38px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('imagens/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: rgb(255, 255, 255); /* Mantém a cor branca para harmonizar com o header */
+    margin-top: 20px; /* Ajuste o espaço superior conforme necessário */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-container i {
+    color: #9c9696;
+    margin-right: 10px;
+}
+
+#search {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+.destino {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease; /* Adiciona um efeito de transição */
+}
+
+.destino:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card ao passar o mouse */
+    cursor: pointer; /* Mostra um ponteiro de mão ao passar o mouse */
+}
+
+
+#destinos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.destino {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.destino img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.destino h2 {
+    margin: 15px 0 10px;
+}
+
+.destino p {
+    margin: 0 0 10px;
+}
